@@ -13,8 +13,6 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Field validation
     let valid = true;
     const newErrors = { username: '', password: '' };
 

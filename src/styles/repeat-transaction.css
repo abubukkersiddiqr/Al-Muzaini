@@ -6,7 +6,6 @@
   flex-direction: column;
 }
 
-/* Scoped Header */
 .repeat-header {
   display: flex;
   align-items: center;
@@ -84,12 +83,9 @@
   transform: rotate(15deg);
 }
 
-/* Content Area */
 .repeat-main-content {
   padding: 20px;
 }
-
-/* Panel Layout with Fade-In Animation */
 .transaction-panel {
   display: flex;
   justify-content: space-between;
@@ -110,8 +106,6 @@
     transform: translateY(0);
   }
 }
-
-/* Sender Info */
 .sender-info {
   display: flex;
   align-items: center;
@@ -134,7 +128,6 @@
   transform: scale(1.2);
 }
 
-/* Amount Fields */
 .amount-section, .summary {
   flex: 1;
   margin: 0 10px;
@@ -214,7 +207,6 @@
   transform: translateX(5px);
 }
 
-/* Summary */
 .summary h3 {
   margin-bottom: 10px;
   transition: color 0.3s ease;
@@ -243,7 +235,6 @@
   font-weight: bold;
 }
 
-/* Button with Bounce Animation */
 .send-now {
   background-color: #ff0000;
   color: #fff;
