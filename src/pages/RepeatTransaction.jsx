@@ -21,7 +21,6 @@ const RepeatTransaction = () => {
 
   return (
     <div className="repeat-transaction-container">
-      {/* Header */}
       <div className="repeat-header">
         <img src="/images/logo.svg" alt="Al Muzaini Exchange Logo" className="logo" />
         <nav>
@@ -68,7 +67,7 @@ const RepeatTransaction = () => {
 
             <div className="amount-field">
               <label>They Receive</label>
-              <input type="number" value={receiveAmount} />
+              <input type="number" value={receiveAmount} readOnly />
               <div className="currency">
                 <img src="/images/PKR.svg" alt="PKR Flag" />
                 <span>PKR (Pakistani Rupees)</span>

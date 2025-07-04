@@ -13,6 +13,7 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     let valid = true;
     const newErrors = { username: '', password: '' };
 
