@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import RateCalculator from './RateCalculator';
-import '../styles/login.css';
+// import '../styles/login.css';
 
 const Login = () => {
   const [username, setUsername] = useState('sample');
